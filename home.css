@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(90deg, #110547,#90159b);
+}
+
+#start, #game-over, #win {
+    font-family:'Franklin Gothic Medium', sans-serif;
+    color: whitesmoke;
+    padding: 20px;
+    position: absolute;
+    top: 6vh;
+    left: 40vw;
+    height: 500px;
+    width: 20vw;
+    text-align: center;
+    background-color: #3d3a3d;
+    border-radius: 12px;
+    z-index: 10;
+    display: none;
+}
+
+#start-btn {
+margin-bottom: 12px;
+}
+
+#start a, #game-over a {
+    border: 3px solid whitesmoke;
+    color: #90159b;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+}
+
+#start a:hover, #game-over a:hover {background-color: #90159b; color: whitesmoke;}

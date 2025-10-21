@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Code Lab 1 - Parvus' Potions</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <canvas id="canvas" width="1100" height="600">
+      </canvas>
+      <div class="infobox" id="game-over">
+        <h1>Game Over</h1>
+        <img src="pictures/endscreen.png" width="300" height="300">
+      </div>
+      <div class="infobox" id="win">
+        <h1>You WIN</h1>
+        <img src="pictures/potion-end.png" width="300" height="300">
+      </div>
+      <div id="start">
+        <h1>Parvus' Potions</h1>
+        <h2>by Nathalie Klinger</h2>
+        <a id="start-btn">start</a>
+        <p>Use your <b>arrow-keys</b> to move, when you press <b>i</b>you see your inventory - after getting all the ingredients from the list, put them into the cauldron with <b>SPACE</b>.</p>
+        <p>(C) for the music: purple-planet.com</p>
+      
+        <img src="pictures/Parvus-start.png" width="250">
+      </div>
+    </div>
+
+    <script type="module" src="game.js"></script>
+  </body>
+</html>
